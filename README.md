@@ -5,8 +5,6 @@ While I did add some server security to the script, it is every server owners re
 
 There will be several wallets already in yiimp. These have nothing to do with the installation script and are from the database import from the yiimp github. 
 
-If you need further assistance we have a small but growing discord channel at https://discord.gg/uQ5wdTC 
-
 *****Do not run the script as root*****
 
 This script has an interactive beginning and will ask for the following information:
@@ -52,13 +50,15 @@ bash block.sh
 
 To download and run 
 
-curl -Lo install.sh https://raw.githubusercontent.com/crombiecrunch/yiimp_install_scrypt/master/install.sh
+sudo git clone https://github.com/PedroLEGA/yiimp_install_scrypt.git 
+
+cd yiimp_install_scrypt
 
 bash install.sh
 
 
-If this helped you or you feel giving please donate BTC Donation: 16xpWzWP2ZaBQWQCDAaseMZBFwnwRUL4bD
+If this helped you or you feel giving please donate BTC Donation: 1CP81781b9zHLDgSwTS13HpUR5tLuN5rNF
 
-Feel free to join our Discord channel at https://discord.gg/zdBbAQ
+Feel free to join our Discord channel at https://discord.gg/TgQ4B
 
 Crombie Crunch
