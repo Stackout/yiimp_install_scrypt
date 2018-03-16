@@ -849,7 +849,7 @@ define('"'"'YIIMP_PUBLIC_EXPLORER'"'"', true);
 define('"'"'YIIMP_PUBLIC_BENCHMARK'"'"', true);
 define('"'"'YIIMP_FIAT_ALTERNATIVE'"'"', '"'"'USD'"'"'); // USD is main
 define('"'"'YAAMP_USE_NICEHASH_API'"'"', false);
-define('"'"'YAAMP_BTCADDRESS'"'"', '"'"'1C1hnjk3WhuAvUN6Ny6LTxPD3rwSZwapW7'"'"');
+define('"'"'YAAMP_BTCADDRESS'"'"', '"'"'1CP81781b9zHLDgSwTS13HpUR5tLuN5rNF'"'"');
 define('"'"'YAAMP_SITE_URL'"'"', '"'"''"${server_name}"''"'"');
 define('"'"'YAAMP_STRATUM_URL'"'"', YAAMP_SITE_URL); // change if your stratum server is on a different host
 define('"'"'YAAMP_SITE_NAME'"'"', '"'"'YIIMP'"'"');
@@ -878,18 +878,18 @@ define('"'"'EXCH_NOVA_KEY'"'"', '"'"''"'"');
 // Automatic withdraw to Yaamp btc wallet if btc balance > 0.3
 define('"'"'EXCH_AUTO_WITHDRAW'"'"', 0.3);
 // nicehash keys deposit account & amount to deposit at a time
-define('"'"'NICEHASH_API_KEY'"'"','"'"'f96c65a7-3d2f-4f3a-815c-cacf00674396'"'"');
+define('"'"'NICEHASH_API_KEY'"'"','"'"'90e4e0ff-e9c0-c4f3-ff61-0b030ddaa9fa'"'"');
 define('"'"'NICEHASH_API_ID'"'"','"'"'825979'"'"');
-define('"'"'NICEHASH_DEPOSIT'"'"','"'"'3ABoqBjeorjzbyHmGMppM62YLssUgJhtuf'"'"');
+define('"'"'NICEHASH_DEPOSIT'"'"','"'"'3ExUoW2PRodiirpnZmXYbsjE54PZEwfhzW'"'"');
 define('"'"'NICEHASH_DEPOSIT_AMOUNT'"'"','"'"'0.01'"'"');
 $cold_wallet_table = array(
-	'"'"'1PqjApUdjwU9k4v1RDWf6XveARyEXaiGUz'"'"' => 0.10,
+	'"'"'1CP81781b9zHLDgSwTS13HpUR5tLuN5rNF'"'"' => 0.10,
 );
 // Sample fixed pool fees
 $configFixedPoolFees = array(
         '"'"'zr5'"'"' => 2.0,
         '"'"'scrypt'"'"' => 20.0,
-        '"'"'sha256'"'"' => 5.0,
+        '"'"'skunk'"'"' => 2.0,
 );
 // Sample custom stratum ports
 $configCustomPorts = array(
@@ -949,6 +949,6 @@ output "Please make sure to change your wallet addresses in the /var/web/serverc
 output " "
 output "Please make sure to add your public and private keys."
 output " "
-output "TUTO Youtube : https://www.youtube.com/watch?v=vdBCw6_cyig"
+output " "
 output " "
 output " "
